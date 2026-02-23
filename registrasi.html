@@ -1,0 +1,109 @@
+<!-- NAMA: MARCHELINDA BIN F52124059-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Registrasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #7f707f;
+        }
+
+        .container {
+            width: 400px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #ccbfce;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 96%;
+            text-align: center;
+            padding: 8px;
+        }
+
+        textarea {
+            resize: none;
+            height: 80px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #a55aa4;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #733f6f;
+        }
+
+        .link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Registrasi</h2>
+    <form>
+        <div class="form-group">
+            <label>Nama Lengkap</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" required>
+        </div>
+
+        <div class="form-group">
+            <label>Alamat</label>
+            <textarea rows="2"></textarea>
+        </div>
+
+        <button type="submit">Daftar</button>
+
+        <div class="link">
+            Sudah punya akun? <a href="login.html">Login di sini</a>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
